@@ -7,7 +7,7 @@ import logging
 bot_token = os.getenv("BOT_TOKEN", "No token found")
 bot_prefix = os.getenv("BOT_PREFIX", "!")
 bot_activity = os.getenv("BOT_ACTIVITY", "Palworld")
-// ... existing code ...
+# ... existing code ...
 
 load_dotenv()
 bot_token = os.getenv("BOT_TOKEN", "No token found")
