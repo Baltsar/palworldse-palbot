@@ -1,8 +1,13 @@
 import os
-from dotenv import load_dotenv
 import importlib.util
 import asyncio
 import logging
+
+# The rest of your code is already correctly using os.getenv()
+bot_token = os.getenv("BOT_TOKEN", "No token found")
+bot_prefix = os.getenv("BOT_PREFIX", "!")
+bot_activity = os.getenv("BOT_ACTIVITY", "Palworld")
+// ... existing code ...
 
 load_dotenv()
 bot_token = os.getenv("BOT_TOKEN", "No token found")
